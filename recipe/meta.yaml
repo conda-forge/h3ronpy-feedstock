@@ -12,7 +12,7 @@ build:
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install ./h3ronpy -vv
-  number: 0
+  number: 1
 
 requirements:
   build:
